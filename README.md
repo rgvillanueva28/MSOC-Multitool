@@ -1,5 +1,7 @@
 # SOC Multi-tool
 
+### Forked from [https://github.com/zdhenard42/SOC-Multitool](https://github.com/zdhenard42/SOC-Multitool)
+
 Introducing SOC Multi-tool, a free and open-source browser extension that makes investigations faster and more efficient. Now available on the Chrome Web Store and compatible with all Chromium-based browsers such as Microsoft Edge, Chrome, Brave, and Opera.   
 [Available on Chrome Web Store!](https://chrome.google.com/webstore/detail/soc-multi-tool/diagjgnagmnjdfnfcciocmjcllacgkab?hl=en&authuser=0)  
 [Available on Firefox Add-Ons Store!](https://addons.mozilla.org/en-US/firefox/addon/soc-multi-tool/)  
