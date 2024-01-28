@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./popup.css" />
+    <title>SOC Multi-tool</title>
+  </head>
+  <body class="container-fluid p-3">
+    <h1 class="text-center">SOC Multi-tool</h1>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Defanger
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <div class="mb-3 row">
+              <label for="defanger" class="col-sm-2 col-form-label"
+                >Input</label
+              >
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="defanger" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="defanger-result" class="col-sm-2 col-form-label"
+                >Result</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  readonly
+                  class="form-control"
+                  id="defanger-result"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="true"
+            aria-controls="collapseTwo"
+          >
+            Fanger
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <div class="mb-3 row">
+              <label for="fanger" class="col-sm-2 col-form-label"
+                >Input</label
+              >
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="fanger" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="fanger-result" class="col-sm-2 col-form-label"
+                >Result</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  readonly
+                  class="form-control"
+                  id="fanger-result"
+                  value="asdasdsa"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
